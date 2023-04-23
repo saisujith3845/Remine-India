@@ -1,0 +1,261 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  font-size: larger;
+  font-weight: bolder;
+  padding: 1.5rem;
+  background-color: #333;
+  border-radius: 5px;
+  color: white;
+  margin-right: 50px;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav li {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+nav a {
+  font-weight:bolder;
+}
+
+.cta {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #333;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url('https://picsum.photos/id/1058/960/500');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  max-width: 600px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Services section styles */
+.services {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services ul {
+  display: flex;
+  justify-content: center;
+}
+
+.services li {
+  max-width: 300px;
+  margin-right: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.services li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.services h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Testimonials section */
+.testimonials {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.testimonial cite {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Contact section */
+.contact {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact form textarea {
+  height: 150px;
+}
+
+.contact form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Footer section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer nav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer nav li:last-child {
+  margin-right: 0;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+footer nav a:hover {
+  color: #ccc;
+}
